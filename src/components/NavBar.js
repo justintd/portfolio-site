@@ -8,7 +8,7 @@ const NavBar = () => {
   }
 
   return (
-    <div className="mx-12 py-8 font-mono text-white tracking-wide">
+    <div className="px-12 py-8 fixed w-full font-mono text-white tracking-wide">
       <div className="flex items-center justify-between">
         <div className="text-2xl tracking-wide">LOGO</div>
         <nav className="hidden lg:block">
@@ -29,7 +29,7 @@ const NavBar = () => {
               </a>
             </li>
             <li>
-              <button className="px-3 py-1 rounded-sm border focus:outline-none text-melon tracking-wide hover:bg-melon hover:bg-opacity-25 transition duration-300">
+              <button className="px-3 py-2 rounded-sm border focus:outline-none text-melon tracking-wide hover:bg-melon hover:bg-opacity-25 transition duration-300">
                 Resume
               </button>
             </li>
