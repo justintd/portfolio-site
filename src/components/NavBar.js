@@ -39,8 +39,8 @@ const NavBar = () => {
           <div
             className={
               isActive
-                ? "absolute bg-black inset-0 transition-all ease-in-out duration-500 opacity-50 h-screen w-screen z-20"
-                : null
+                ? "absolute bg-black inset-0 transition-all ease-in-out duration-300 opacity-50 h-screen w-screen z-20"
+                : "absolute bg-black inset-0 transition-all ease-in-out duration-300 opacity-0 h-screen w-screen z-20"
             }
             onClick={handleToggle}
           ></div>
