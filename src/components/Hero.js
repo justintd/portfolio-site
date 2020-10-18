@@ -1,8 +1,9 @@
-import React, { useState } from "react"
+import React from "react"
+import Chevron from "../images/chevron-down.svg"
 
 const Hero = () => {
   return (
-    <section className="container block flex items-center mx-auto h-screen">
+    <section className="container block flex flex-column items-center justify-center mx-auto h-screen">
       <div className="flex flex-col justify-center text-melon w-full mx-40">
         <div>
           <h1 className="mb-4 text-xl font-mono">Hi I'm,</h1>
@@ -13,12 +14,12 @@ const Hero = () => {
           </h2>
         </div>
         <div>
-          <h2 className="text-7xl pb-2 pr-1 font-bold font-sans text-black bg-melon w-auto inline-block leading-none">
+          <h2 className="text-7xl pb-2 pr-1 font-bold font-sans text-silver w-auto inline-block leading-none">
             I build websites.
           </h2>
         </div>
         <div>
-          <p className="my-8 text-silver text-xl w-120">
+          <p className="my-8 text-gray text-xl w-120">
             I'm an IT professional with a newfound passion in web development.
           </p>
         </div>
@@ -27,6 +28,9 @@ const Hero = () => {
             About Me
           </button>
         </div>
+      </div>
+      <div className="absolute bottom-0 w-10">
+        <img className="pb-3" src={Chevron}></img>
       </div>
     </section>
   )
