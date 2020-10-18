@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="container block flex flex-column items-center justify-center mx-auto h-screen">
       <div className="flex flex-col justify-center text-melon w-full mx-40">
         <div>
-          <h1 className="mb-4 text-xl font-mono">Hi I'm,</h1>
+          <h1 className="mb-5 text-xl font-mono">Hi I'm,</h1>
         </div>
         <div>
           <h2 className="mb-8 text-7xl font-bold font-sans text-white leading-none">
