@@ -3,8 +3,13 @@ import Chevron from "../images/chevron-down.svg"
 
 const Hero = () => {
   return (
-    <section className="container block flex flex-column items-center justify-center mx-auto h-screen">
-      <div className="flex flex-col justify-center text-melon w-full mx-40">
+    <section className="container block flex flex-row items-center justify-center mx-auto h-screen">
+      <div className="flex items-start relative vertical-text mr-4">
+        <p className="font-mono tracking-wide text-sm text-silver mb-5">
+          contact@jdinh.dev
+        </p>
+      </div>
+      <div className="flex flex-col justify-center text-melon w-full mr-40">
         <div>
           <h1 className="mb-5 text-xl font-mono">Hi I'm,</h1>
         </div>
