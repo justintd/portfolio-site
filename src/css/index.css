@@ -10,37 +10,27 @@
     background-color: #0c0c0c;
   }
 
-  /* Hamburger Menu Styling */
+  /* Vertical Text Styling in Hero component */
+  .vertical-text {
+    writing-mode: vertical-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
 
-  .hamburger-menu .hamburger-line {
-    width: 30px;
-    height: 2px;
+  .vertical-text::after {
+    content: "";
     display: block;
-    margin: 8px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    width: 1px;
+    height: 13.5rem;
+    margin: 0px auto 2.9rem auto;
+    background-color: #bcb8b1;
   }
 
-  .hamburger-menu:hover {
-    cursor: pointer;
-  }
-
-  .hamburger-menu.is-active .hamburger-line:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger-menu.is-active .hamburger-line:nth-child(1) {
-    -webkit-transform: translateY(10px) rotate(45deg);
-    -ms-transform: translateY(10px) rotate(45deg);
-    -o-transform: translateY(10px) rotate(45deg);
-    transform: translateY(10px) rotate(45deg);
-  }
-
-  .hamburger-menu.is-active .hamburger-line:nth-child(3) {
-    -webkit-transform: translateY(-10px) rotate(-45deg);
-    -ms-transform: translateY(-10px) rotate(-45deg);
-    -o-transform: translateY(-10px) rotate(-45deg);
-    transform: translateY(-10px) rotate(-45deg);
+  /* Grid columns */
+  .grid-cols-aboutme {
+    grid-template-columns: 3fr 2fr;
   }
 }
