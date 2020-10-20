@@ -10,27 +10,27 @@
     background-color: #0c0c0c;
   }
 
-  /* Vertical Text Styling in Hero component */
-  .vertical-text {
-    writing-mode: vertical-rl;
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-  }
-
-  .vertical-text::after {
-    content: "";
-    display: block;
-    width: 1px;
-    height: 13.5rem;
-    margin: 0px auto 2.9rem auto;
-    background-color: #bcb8b1;
-  }
-
   /* Grid columns */
   .grid-cols-aboutme {
     grid-template-columns: 3fr 2fr;
   }
+}
+
+/* Vertical Text Styling in Hero component */
+.vertical-text {
+  writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate1800deg);
+  transform: rotate(180deg);
+}
+
+.vertical-text::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 13.5rem;
+  margin: 0px auto 2.9rem auto;
+  background-color: #BCB8B1;
 }
