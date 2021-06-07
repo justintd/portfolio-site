@@ -5,10 +5,10 @@ const NavMobile = (props) => (
   <>
     <nav className="lg:hidden">
       <button
-        className={`absolute bg-black inset-0 transition-all ease-in-out duration-300 opacity-0 h-screen w-screen z-20 ${
-          props.isActive ? 'opacity-50' : null
+        className={`absolute bg-black inset-0 transition-all ease-in-out duration-300 opacity-0 h-screen w-screen ${
+          props.isActive ? 'opacity-50' : 'invisible'
         }`}
-        onClick={props.isActive ? props.handleToggle : undefined}
+        onClick={props.handleToggle}
         type="button"
       />
       <aside
