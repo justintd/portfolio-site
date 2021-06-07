@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Fade from 'react-reveal';
 import NavDesktop from './NavDesktop';
 import NavMobile from './NavMobile';
+import Avatar from '../../images/avatar.png';
 
 const NavBar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -34,7 +35,12 @@ const NavBar = () => {
       <div className="container mx-auto px-8">
         <div className="flex justify-between items-center py-8 font-mono text-white tracking-wide bg-black z-10">
           <Fade top>
-            <div className="text-2xl tracking-wide">jdinh.dev</div>
+            <a href="/" className="flex items-center">
+              <div className="rounded-full bg-opacity-15 bg-gray">
+                <img className="rounded-full" width="48" height="48" src={Avatar} alt="" />
+              </div>
+              <div className="font-sans tracking-wide font-bold ml-2">Justin Dinh</div>
+            </a>
           </Fade>
           <NavDesktop
             links={links}
