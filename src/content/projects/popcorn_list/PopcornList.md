@@ -1,6 +1,7 @@
 ---
 date: '2020-06-01'
 title: 'Popcorn List'
+img: './popcornlist.png'
 github: 'https://github.com/salty-turtle/popcornlist'
 external: 'https://popcornlist.herokuapp.com/'
 tech:
