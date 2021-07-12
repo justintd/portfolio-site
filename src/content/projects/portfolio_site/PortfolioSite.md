@@ -1,5 +1,6 @@
 ---
-title: 'Popcorn List'
+date: '2021-07-12'
+title: 'Portfolio Site'
 github: 'https://github.com/justintd/portfolio-site'
 external: 'https://jdinh.dev'
 tech:

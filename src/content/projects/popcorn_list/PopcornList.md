@@ -1,4 +1,5 @@
 ---
+date: '2020-06-01'
 title: 'Popcorn List'
 github: 'https://github.com/salty-turtle/popcornlist'
 external: 'https://popcornlist.herokuapp.com/'
