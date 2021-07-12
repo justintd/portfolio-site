@@ -1,6 +1,9 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import ExternalIcon from '../icons/External';
+import GithubIcon from '../icons/Github';
+import './Work.css';
 
 const Work = () => {
   const data = useStaticQuery(graphql`
@@ -61,7 +64,7 @@ const Work = () => {
                   className="mb-5 text-md text-right text-white font-sans max-w-lg"
                   dangerouslySetInnerHTML={{ __html: html }}
                 />
-                <div className="flex flex-row">
+                <div className="flex flex-row mb-3">
                   {tech.map((item) => (
                     <div
                       key={item}
@@ -70,6 +73,14 @@ const Work = () => {
                       {item}
                     </div>
                   ))}
+                </div>
+                <div className="flex flex-row">
+                  <a className="github-icon mr-3" href={github}>
+                    <GithubIcon />
+                  </a>
+                  <a className="external-icon" href={external}>
+                    <ExternalIcon />
+                  </a>
                 </div>
               </div>
             </div>
