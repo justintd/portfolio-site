@@ -64,23 +64,25 @@ const Work = () => {
                   className="mb-5 text-md text-right text-white font-sans max-w-lg"
                   dangerouslySetInnerHTML={{ __html: html }}
                 />
-                <div className="flex flex-row mb-3">
-                  {tech.map((item) => (
-                    <div
-                      key={item}
-                      className="text-sm px-2 py-0.5 ml-3 rounded-sm border focus:outline-none text-melon tracking-wide"
-                      type="button">
-                      {item}
-                    </div>
-                  ))}
-                </div>
-                <div className="flex flex-row">
-                  <a className="github-icon mr-3" href={github}>
-                    <GithubIcon />
-                  </a>
-                  <a className="external-icon" href={external}>
-                    <ExternalIcon />
-                  </a>
+                <div className="flex flex-col items-end">
+                  <div className="flex flex-row mb-3">
+                    {tech.map((item) => (
+                      <div
+                        key={item}
+                        className="text-sm px-2 py-0.5 ml-3 rounded-sm border focus:outline-none text-melon tracking-wide"
+                        type="button">
+                        {item}
+                      </div>
+                    ))}
+                  </div>
+                  <div className="flex flex-row">
+                    <a className="github-icon mr-3" href={github}>
+                      <GithubIcon />
+                    </a>
+                    <a className="external-icon" href={external}>
+                      <ExternalIcon />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
