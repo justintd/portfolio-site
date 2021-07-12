@@ -8,7 +8,7 @@ const Hero = () => (
       </h4>
       <div className="flex flex-col">
         <p className="mb-5 text-xl text-white font-sans">
-          Hey there! I'm Justin, a front-end developer based in Southern California.
+          Hey there! I&apos;m Justin, a front-end developer based in Southern California.
         </p>
         <p className="mb-5 text-xl text-white font-sans">
           I originally started my career in IT as a Systems Administrator for over four years, and
@@ -22,8 +22,8 @@ const Hero = () => (
           and translating designs into pixel-perfect user interface.
         </p>
         <p className="mb-5 text-xl text-white font-sans">
-          When I'm not hacking away at code, I enjoy gaming with friends, traveling, and spending
-          time with my lovely dogs.
+          When I&apos;m not hacking away at code, I enjoy gaming with friends, traveling, and
+          spending time with my lovely dogs.
         </p>
       </div>
     </div>
