@@ -1,0 +1,13 @@
+---
+title: 'Popcorn List'
+github: 'https://github.com/salty-turtle/popcornlist'
+external: 'https://popcornlist.herokuapp.com/'
+tech:
+  - React
+  - Redux
+  - Node.js
+  - Express
+  - TheMovieDB API
+---
+
+A front-end web application created with React using The Movie Database API. You can search and view movies, TV shows and actors/actresses using Popcorn List.
