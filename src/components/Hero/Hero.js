@@ -37,9 +37,9 @@ const Hero = () => (
             </button>
           </div>
         </div>
-        <div className="absolute bottom-0 w-10">
+        {/* <div className="absolute bottom-0 w-10">
           <img className="pb-3" src={Chevron} alt="" />
-        </div>
+        </div> */}
       </div>
     </Fade>
   </section>
