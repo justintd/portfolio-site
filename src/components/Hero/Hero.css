@@ -1,0 +1,18 @@
+/* Vertical Text Styling in Hero component */
+.vertical-text {
+  writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate1800deg);
+  transform: rotate(180deg);
+}
+
+.vertical-text::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 13.5rem;
+  margin: 0px auto 2.9rem auto;
+  background-color: #BCB8B1;
+}

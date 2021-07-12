@@ -6,5 +6,8 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-postcss`],
-}
+  siteMetadata: {
+    title: 'Justin Dinh'
+  },
+  plugins: [`gatsby-plugin-postcss`]
+};
