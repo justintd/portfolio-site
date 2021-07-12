@@ -1,6 +1,5 @@
 import React from 'react';
 import Fade from 'react-reveal';
-// import Chevron from '../../images/chevron-down.svg';
 import './Hero.css';
 
 const Hero = () => (
