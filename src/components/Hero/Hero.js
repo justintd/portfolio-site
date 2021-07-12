@@ -1,6 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal';
-import Chevron from '../../images/chevron-down.svg';
+// import Chevron from '../../images/chevron-down.svg';
 import './Hero.css';
 
 const Hero = () => (
@@ -12,7 +12,7 @@ const Hero = () => (
         </div>
         <div className="flex flex-col justify-center w-full">
           <div>
-            <h1 className="mb-5 text-xl text-melon font-mono">Hi I'm,</h1>
+            <h1 className="mb-5 text-xl text-melon font-mono">Hi I&apos;m,</h1>
           </div>
           <div>
             <h2 className="mb-8 text-7xl font-bold font-sans text-white leading-none">
@@ -26,7 +26,7 @@ const Hero = () => (
           </div>
           <div>
             <p className="my-8 text-gray text-xl w-120">
-              I'm a software engineer who's passionate about creating things for the web.
+              I'm a software engineer who&apos;s passionate about creating things for the web.
             </p>
           </div>
           <div>
@@ -37,9 +37,6 @@ const Hero = () => (
             </button>
           </div>
         </div>
-        {/* <div className="absolute bottom-0 w-10">
-          <img className="pb-3" src={Chevron} alt="" />
-        </div> */}
       </div>
     </Fade>
   </section>

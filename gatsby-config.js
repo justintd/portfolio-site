@@ -9,5 +9,25 @@ module.exports = {
   siteMetadata: {
     title: 'Justin Dinh'
   },
-  plugins: [`gatsby-plugin-postcss`]
+  plugins: [
+    `gatsby-plugin-postcss`,
+    `gatsby-transformer-remark`,
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content`,
+        path: `${__dirname}/src/content`
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projects`,
+        path: `${__dirname}/src/content/projects`
+      }
+    }
+  ]
 };

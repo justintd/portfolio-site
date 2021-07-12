@@ -1,0 +1,17 @@
+.external-icon > svg > path {
+  fill: #F4F3EE;
+  transition: fill 300ms;
+}
+
+.external-icon:hover > svg > path {
+  fill: #FFC9B9;
+}
+
+.github-icon > svg > path {
+  fill: #F4F3EE;
+  transition: fill 300ms;
+}
+
+.github-icon:hover > svg > path {
+  fill: #FFC9B9;
+}

@@ -1,14 +1,14 @@
 import React from 'react';
 
-const Hero = () => (
+const AboutMe = () => (
   <section className="container mx-auto px-64 py-40">
     <div className="block flex flex-row justify-center">
-      <h4 className="mb-5 text-xl text-melon font-sans font-bold mr-24 whitespace-nowrap">
+      <h4 className="mb-5 text-2xl text-melon font-sans font-bold mr-24 tracking-wide whitespace-nowrap">
         About Me
       </h4>
       <div className="flex flex-col">
         <p className="mb-5 text-xl text-white font-sans">
-          Hey there! I'm Justin, a front-end developer based in Southern California.
+          Hey there! I&apos;m Justin, a front-end developer based in Southern California.
         </p>
         <p className="mb-5 text-xl text-white font-sans">
           I originally started my career in IT as a Systems Administrator for over four years, and
@@ -22,12 +22,12 @@ const Hero = () => (
           and translating designs into pixel-perfect user interface.
         </p>
         <p className="mb-5 text-xl text-white font-sans">
-          When I'm not hacking away at code, I enjoy gaming with friends, traveling, and spending
-          time with my lovely dogs.
+          When I&apos;m not hacking away at code, I enjoy gaming with friends, traveling, and
+          spending time with my lovely dogs.
         </p>
       </div>
     </div>
   </section>
 );
 
-export default Hero;
+export default AboutMe;
