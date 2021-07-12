@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Hero = () => (
+const AboutMe = () => (
   <section className="container mx-auto px-64 py-40">
     <div className="block flex flex-row justify-center">
       <h4 className="mb-5 text-xl text-melon font-sans font-bold mr-24 whitespace-nowrap">
@@ -30,4 +30,4 @@ const Hero = () => (
   </section>
 );
 
-export default Hero;
+export default AboutMe;
