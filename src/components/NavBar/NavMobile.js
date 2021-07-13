@@ -19,7 +19,7 @@ const NavMobile = (props) => (
           {Object.keys(props.links).map((key) => {
             if (!props.links[key].button) {
               return (
-                <li className="my-3" key={key.name}>
+                <li className="my-3" key={props.links[key].name}>
                   <a
                     href={props.links[key].href}
                     className="hover:text-melon text-lg transition duration-300">
@@ -29,7 +29,7 @@ const NavMobile = (props) => (
               );
             }
             return (
-              <li className="my-3" key={key.name}>
+              <li className="my-3" key={props.links[key].name}>
                 <button
                   className="px-5 py-2 text-lg rounded-sm border focus:outline-none text-melon tracking-wide hover:bg-melon hover:bg-opacity-25 transition-all ease-in-out duration-300"
                   type="button">

@@ -9,7 +9,7 @@ const NavDesktop = (props) => (
         {Object.keys(props.links).map((key) => {
           if (!props.links[key].button) {
             return (
-              <li key={key.name}>
+              <li key={props.links[key].name}>
                 <a
                   href={props.links[key].href}
                   className="hover:text-melon transition duration-300">
@@ -19,7 +19,7 @@ const NavDesktop = (props) => (
             );
           }
           return (
-            <li key={key.name}>
+            <li key={props.links[key].name}>
               <button
                 className="px-3 py-2 rounded-sm border focus:outline-none text-melon tracking-wide hover:bg-melon hover:bg-opacity-25 transition duration-300"
                 type="button">
