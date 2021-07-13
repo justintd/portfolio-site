@@ -13,7 +13,7 @@ const NavMobile = (props) => (
         type="button"
       />
       <aside
-        className={`transform top-0 bottom-0 right-0 w-8/12 md:w-5/12 bg-black-2 fixed h-screen overflow-auto ease-in-out transition-all duration-300 z-30 ${
+        className={`transform top-0 bottom-0 right-0 w-6/12 md:w-5/12 bg-black-2 fixed h-screen overflow-auto ease-in-out transition-all duration-300 z-30 ${
           props.isActive ? 'translate-x-0' : 'translate-x-full'
         }`}>
         <ul className="flex flex-col h-full items-center justify-center align-center">

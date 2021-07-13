@@ -17,7 +17,7 @@ export default function NotFound() {
           </p>
           <a href="/">
             <button
-              className="py-1 px-2 sm:py-2 lg:px-5 lg:text-md text-xs sm:text-sm rounded-sm border font-mono text-melon tracking-wide hover:bg-melon hover:bg-opacity-100 hover:text-black transition duration-300"
+              className="py-2 px-3 lg:px-5 lg:text-md text-xs sm:text-sm rounded-sm border font-mono text-melon tracking-wide hover:bg-melon hover:bg-opacity-100 hover:text-black transition duration-300"
               type="button">
               Go Back Home
             </button>
