@@ -51,10 +51,10 @@ const Work = () => {
               <div
                 key={title}
                 className="flex flex-col lg:flex-row w-full justify-center items-start lg:justify-between mb-32 lg:mb-48">
-                <div className="relative">
+                <div className="relative shadow-xl rounded-sm">
                   <a href={external}>
                     <GatsbyImage image={image} alt={title} />
-                    <div className="absolute top-0 rounded-sm w-full h-full backdrop-filter backdrop-grayscale hover:opacity-0 transition duration-300" />
+                    <div className="absolute top-0 rounded-sm w-full h-full backdrop-filter backdrop-grayscale hover:opacity-0 transition duration-300 shadow-md" />
                   </a>
                 </div>
                 <div className="flex flex-col items-start justify-start lg:ml-20 lg:items-end lg:justify-between">
