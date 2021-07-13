@@ -1,6 +1,8 @@
 # Portfolio Site
 
-Hey there! This is my first portfolio site built with React and Gatsby. It's deployed on Netlify.
+Hey there! This is my first portfolio site built with React and Gatsby. It's deployed on Netlify. 
+
+You can find it here: [jdinh.dev](https://jdinh.dev)
 
 ## Getting Started
 
