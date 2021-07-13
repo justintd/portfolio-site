@@ -6,8 +6,8 @@ import MailIcon from '../icons/Mail';
 import './Footer.css';
 
 const Footer = () => (
-  <Fade bottom>
-    <div className="relative">
+  <div className="relative">
+    <Fade bottom>
       <div className="flex w-full absolute bottom-0">
         <footer className="container mx-auto px-8">
           <div className="flex justify-between items-center h-24">
@@ -30,8 +30,8 @@ const Footer = () => (
           </div>
         </footer>
       </div>
-    </div>
-  </Fade>
+    </Fade>
+  </div>
 );
 
 export default Footer;
