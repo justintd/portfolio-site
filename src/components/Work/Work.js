@@ -65,7 +65,7 @@ const Work = () => {
                   dangerouslySetInnerHTML={{ __html: html }}
                 />
                 <div className="flex flex-col items-end">
-                  <div className="flex flex-row mb-3">
+                  <div className="flex flex-row mb-5">
                     {tech.map((item) => (
                       <div
                         key={item}
