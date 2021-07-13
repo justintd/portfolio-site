@@ -5,36 +5,38 @@ import './Hero.css';
 const Hero = () => (
   <section className="container mx-auto px-8">
     <Fade>
-      <div className="block flex flex-row items-center justify-center h-screen">
-        <div className="flex items-start relative vertical-text mr-4">
+      <div className="flex flex-row items-center justify-center h-screen">
+        <div className="flex items-start relative vertical-text mr-4 hidden lg:flex">
           <a
-            className="font-mono tracking-wide lg:text-sm md:text-xs text-silver mb-5"
+            className="font-mono tracking-wide text-xs lg:text-sm text-silver mb-5"
             href="mailto:justintdinh1@gmail.com">
             justintdinh1@gmail.com
           </a>
         </div>
         <div className="flex flex-col justify-center w-full">
-          <div>
-            <h1 className="mb-5 lg:text-xl text-md text-melon font-mono">Hi I&apos;m,</h1>
+          <div className="flex">
+            <h1 className="mb-3 lg:mb-5 text-sm sm:text-md lg:text-xl text-melon font-mono">
+              Hi I&apos;m,
+            </h1>
           </div>
-          <div>
-            <h2 className="mb-8 lg:text-7xl text-5xl font-bold font-sans text-white leading-none">
+          <div className="flex">
+            <h2 className="mb-4 lg:mb-8 text-4xl sm:text-5xl lg:text-7xl font-bold font-sans text-white leading-none">
               Justin Dinh.
             </h2>
           </div>
-          <div>
-            <h2 className="lg:text-7xl text-5xl pb-2 pr-1 font-bold font-sans text-black w-auto inline-block leading-none bg-melon">
+          <div className="flex">
+            <h2 className="text-4xl sm:text-5xl lg:text-7xl pb-2 pr-1 font-bold font-sans text-black w-auto inline-block leading-none bg-melon">
               I build websites.
             </h2>
           </div>
-          <div>
-            <p className="my-8 text-gray lg:text-xl text-md w-120">
-              I'm a software engineer who&apos;s passionate about creating things for the web.
+          <div className="flex">
+            <p className="my-4 lg:my-8 text-gray lg:text-xl text-sm w-120">
+              I&apos;m a software engineer who&apos;s passionate about creating things for the web.
             </p>
           </div>
           <div>
             <button
-              className="lg:px-5 py-2 lg:text-md text-sm px-3 rounded-sm border focus:outline-none font-mono text-melon tracking-wide hover:bg-melon hover:bg-opacity-25 transition duration-300"
+              className="py-1 px-2 sm:py-2 lg:px-5 lg:text-md text-xs sm:text-sm rounded-sm border focus:outline-none font-mono text-melon tracking-wide hover:bg-melon hover:bg-opacity-25 transition duration-300"
               type="button">
               Contact Me
             </button>

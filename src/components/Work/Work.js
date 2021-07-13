@@ -37,7 +37,7 @@ const Work = () => {
   return (
     <section className="container mx-auto px-8 lg:px-64 py-24 lg:py-40" id="work">
       <div className="block flex flex-col items-center justify-center">
-        <h4 className="mb-12 text-2xl text-melon font-sans font-bold tracking-wide whitespace-nowrap">
+        <h4 className="mb-12 text-xl lg:text-2xl text-melon font-sans font-bold tracking-wide whitespace-nowrap">
           My Work
         </h4>
         {projects.map(({ node }) => {
@@ -48,7 +48,7 @@ const Work = () => {
           return (
             <div
               key={title}
-              className="flex flex-col lg:flex-row w-full justify-center items-center lg:justify-between lg:items-start mb-32 lg:mb-48">
+              className="flex flex-col lg:flex-row w-full justify-center items-start lg:justify-between mb-32 lg:mb-48">
               <div className="relative">
                 <a href={external}>
                   <GatsbyImage image={image} alt={title} />
@@ -57,13 +57,15 @@ const Work = () => {
               </div>
               <div className="flex flex-col items-start justify-start lg:ml-20 lg:items-end lg:justify-between">
                 <div className="flex flex-col items-start lg:items-end mt-5 lg:mt-0">
-                  <h3 className="text-md text-white font-mono font-bold lg:ml-5 tracking-wide">
+                  <h3 className="text-sm lg:text-md text-white font-mono font-bold lg:ml-5 tracking-wide">
                     Project
                   </h3>
-                  <h3 className="mb-5 text-3xl text-melon font-sans font-bold lg:ml-5">{title}</h3>
+                  <h3 className="mb-5 text-2xl lg:text-3xl text-melon font-sans font-bold lg:ml-5">
+                    {title}
+                  </h3>
                 </div>
                 <div
-                  className="mb-5 text-md text-left lg:text-right text-white font-sans max-w-lg"
+                  className="mb-5 text-sm lg:text-md text-left lg:text-right text-white font-sans max-w-lg"
                   dangerouslySetInnerHTML={{ __html: html }}
                 />
                 <div className="flex flex-col items-start lg:items-end">
@@ -71,7 +73,7 @@ const Work = () => {
                     {tech.map((item) => (
                       <div
                         key={item}
-                        className="text-sm px-2 py-0.5 mr-3 lg:ml-3 rounded-sm border focus:outline-none text-melon tracking-wide"
+                        className="text-xs lg:text-sm px-1 lg:px-2 py-0.5 mr-3 lg:ml-3 rounded-sm border focus:outline-none text-melon tracking-wide"
                         type="button">
                         {item}
                       </div>
