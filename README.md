@@ -8,7 +8,7 @@ You can find it here: [jdinh.dev](https://jdinh.dev)
 
 ## Getting Started
 
-These instructions will the site running on your local machine for development and testing purposes.
+These instructions will get the site running on your local machine for development and testing purposes.
 
 1. Run `npm install` in the project's root directory.
 
