@@ -11,7 +11,7 @@ const Contact = () => (
       </p>
       <p className="mb-2 text-xl text-white font-sans text-center">Drop by my inbox at:</p>
       <a href="mailto:justintdinh1@gmail.com">
-        <p className="mb-5 font-bold text-xl text-white font-sans text-center">
+        <p className="mb-5 font-bold text-xl text-white font-sans text-center hover:text-melon transition duration-300">
           justintdinh1@gmail.com
         </p>
       </a>
