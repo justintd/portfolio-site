@@ -9,9 +9,15 @@
   body {
     background-color: #0c0c0c;
   }
+  body::-webkit-scrollbar {
+    width: 0.3rem;
+  }
 
-  /* Grid columns */
-  .grid-cols-aboutme {
-    grid-template-columns: 3fr 2fr;
+  body::-webkit-scrollbar-thumb {
+    background: #FFC9B9;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: #1C1C1C;
   }
 }
