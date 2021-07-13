@@ -73,7 +73,7 @@ const Work = () => {
                     {tech.map((item) => (
                       <div
                         key={item}
-                        className="text-xs lg:text-sm px-1 lg:px-2 py-0.5 mr-3 lg:ml-3 rounded-sm border focus:outline-none text-melon tracking-wide"
+                        className="text-xs lg:text-sm px-1 lg:px-2 py-0.5 mr-2 lg:ml-3 rounded-sm border focus:outline-none text-melon tracking-wide"
                         type="button">
                         {item}
                       </div>
