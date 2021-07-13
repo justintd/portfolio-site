@@ -1,6 +1,7 @@
 import React from 'react';
 import GithubIcon from '../icons/Github';
 import LinkedInIcon from '../icons/LinkedIn';
+import MailIcon from '../icons/Mail';
 import './Footer.css';
 
 const Footer = () => (
@@ -12,6 +13,9 @@ const Footer = () => (
         </a>
       </div>
       <div className="flex flex-row items-center">
+        <a className="mail-icon mr-5" href="mailto:justintdinh1@gmail.com">
+          <MailIcon />
+        </a>
         <a className="github-icon mr-5" href="https://github.com/justintd/portfolio-site">
           <GithubIcon />
         </a>
