@@ -33,7 +33,7 @@ const NavBar = () => {
   return (
     <div className="flex w-full fixed z-10">
       <div className="container mx-auto px-8">
-        <div className="flex justify-between items-center py-8 font-mono text-white tracking-wide bg-black z-10">
+        <div className="flex justify-between items-center py-4 lg:py-8 font-mono text-white tracking-wide bg-black z-10">
           <Fade top>
             <a href="/" className="flex items-center">
               <div className="rounded-full bg-opacity-15 bg-gray">
