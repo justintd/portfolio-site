@@ -1,6 +1,6 @@
 # Portfolio Site
 
-Hey there! This is my first portfolio site built with Gatsby.
+Hey there! This is my first portfolio site built with React and Gatsby.
 
 ## Getting Started
 
