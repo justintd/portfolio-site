@@ -21,7 +21,7 @@ const NavDesktop = (props) => (
           return (
             <li key={props.links[key].name}>
               <button
-                className="px-3 py-2 rounded-sm border focus:outline-none text-melon tracking-wide hover:bg-melon hover:bg-opacity-25 transition duration-300"
+                className="px-3 py-2 border text-melon tracking-wide rounded-sm hover:bg-melon hover:bg-opacity-100 hover:text-black transition duration-300"
                 type="button">
                 <a href={props.links[key].href}>{props.links[key].name}</a>
               </button>
