@@ -6,11 +6,11 @@ import MailIcon from '../icons/Mail';
 import './Footer.css';
 
 const Footer = () => (
-  <Fade bottom>
-    <div className="relative">
-      <div className="flex w-full absolute bottom-0">
-        <footer className="container mx-auto px-8">
-          <div className="flex justify-between items-center h-24">
+  <div className="relative">
+    <div className="flex w-full absolute bottom-0">
+      <footer className="container mx-auto px-8">
+        <div className="flex justify-between items-center h-24">
+          <Fade bottom>
             <div className="flex flex-row text-md text-white font-sans tracking-wide items-center justify-center">
               <a href="https://jdinh.dev" className="mr-2">
                 <p>Justin Dinh © 2021</p>
@@ -27,11 +27,11 @@ const Footer = () => (
                 <LinkedInIcon />
               </a>
             </div>
-          </div>
-        </footer>
-      </div>
+          </Fade>
+        </div>
+      </footer>
     </div>
-  </Fade>
+  </div>
 );
 
 export default Footer;
