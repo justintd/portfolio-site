@@ -9,8 +9,8 @@ const Contact = () => (
           Contact Me
         </h2>
         <p className="mb-6 text-lg lg:text-xl text-white font-sans text-center max-w-3xl">
-          I&apos;m currently looking for new opportunities, so please don&apos;t hesitate to reach
-          out! If you just simply want to reach out and just say hi, I would love to hear from you!
+          I&apos;m currently open for new opportunities, so please don&apos;t hesitate to reach out!
+          If you just simply want to reach out and just say hi, I would love to hear from you!
           I&apos;ll get back to messages as soon as I can. Thanks!
         </p>
         <p className="mb-1 text-lg lg:text-xl text-white font-sans text-center">
