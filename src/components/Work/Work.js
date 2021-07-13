@@ -51,7 +51,9 @@ const Work = () => {
               <div
                 key={title}
                 className="flex flex-col lg:flex-row w-full justify-center items-start lg:justify-between mb-32 lg:mb-48">
-                <div className="relative shadow-xl rounded-sm">
+                <div
+                  className="relative rounded-sm"
+                  style={{ boxShadow: '8px 8px 9px 0px rgba(0,0,0,0.25)' }}>
                   <a href={external}>
                     <GatsbyImage image={image} alt={title} />
                     <div className="absolute top-0 rounded-sm w-full h-full backdrop-filter backdrop-grayscale hover:opacity-0 transition duration-300 shadow-md" />

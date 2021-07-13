@@ -13,7 +13,7 @@ const Contact = () => (
           out! If you just simply want to reach out and just say hi, I would love to hear from you!
           I&apos;ll get back to messages as soon as I can. Thanks!
         </p>
-        <p className="mb-2 text-lg lg:text-xl text-white font-sans text-center">
+        <p className="mb-1 text-lg lg:text-xl text-white font-sans text-center">
           Drop by my inbox at:
         </p>
         <a href="mailto:justintdinh1@gmail.com">
