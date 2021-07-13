@@ -35,10 +35,10 @@ const Work = () => {
   const projects = data.projects.edges.filter(({ node }) => node);
 
   return (
-    <section className="container mx-auto px-64 py-40">
+    <section className="container mx-auto px-64 py-40" id="work">
       <div className="block flex flex-col items-center justify-center">
         <h4 className="mb-12 text-2xl text-melon font-sans font-bold tracking-wide whitespace-nowrap">
-          My Projects
+          My Work
         </h4>
         {projects.map(({ node }) => {
           const { frontmatter, html } = node;
@@ -64,23 +64,25 @@ const Work = () => {
                   className="mb-5 text-md text-right text-white font-sans max-w-lg"
                   dangerouslySetInnerHTML={{ __html: html }}
                 />
-                <div className="flex flex-row mb-3">
-                  {tech.map((item) => (
-                    <div
-                      key={item}
-                      className="text-sm px-2 py-0.5 ml-3 rounded-sm border focus:outline-none text-melon tracking-wide"
-                      type="button">
-                      {item}
-                    </div>
-                  ))}
-                </div>
-                <div className="flex flex-row">
-                  <a className="github-icon mr-3" href={github}>
-                    <GithubIcon />
-                  </a>
-                  <a className="external-icon" href={external}>
-                    <ExternalIcon />
-                  </a>
+                <div className="flex flex-col items-end">
+                  <div className="flex flex-row mb-5">
+                    {tech.map((item) => (
+                      <div
+                        key={item}
+                        className="text-sm px-2 py-0.5 ml-3 rounded-sm border focus:outline-none text-melon tracking-wide"
+                        type="button">
+                        {item}
+                      </div>
+                    ))}
+                  </div>
+                  <div className="flex flex-row">
+                    <a className="github-icon mr-3" href={github}>
+                      <GithubIcon />
+                    </a>
+                    <a className="external-icon" href={external}>
+                      <ExternalIcon />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

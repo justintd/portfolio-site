@@ -1,7 +1,7 @@
 import React from 'react';
 
 const AboutMe = () => (
-  <section className="container mx-auto px-64 py-40">
+  <section className="container mx-auto px-64 py-40" id="about">
     <div className="block flex flex-row justify-center">
       <h4 className="mb-5 text-2xl text-melon font-sans font-bold mr-24 tracking-wide whitespace-nowrap">
         About Me

@@ -13,15 +13,15 @@ const NavBar = () => {
     },
     work: {
       name: 'Work',
-      href: '#Work'
+      href: '#work'
     },
     contact: {
       name: 'Contact',
-      href: '#Contact'
+      href: '#contact'
     },
     resume: {
       name: 'Resume',
-      href: '#Resume',
+      href: '#resume',
       button: true
     }
   };

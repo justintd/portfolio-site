@@ -1,0 +1,26 @@
+.github-icon > svg > path {
+  fill: #F4F3EE;
+  transition: fill 300ms;
+}
+
+.github-icon:hover > svg > path {
+  fill: #FFC9B9;
+}
+
+.linkedin-icon > svg > path {
+  fill: #F4F3EE;
+  transition: fill 300ms;
+}
+
+.linkedin-icon:hover > svg > path {
+  fill: #FFC9B9;
+}
+
+.mail-icon > svg > path {
+  fill: #F4F3EE;
+  transition: fill 300ms;
+}
+
+.mail-icon:hover > svg > path {
+  fill: #FFC9B9;
+}

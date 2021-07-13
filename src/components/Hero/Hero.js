@@ -1,6 +1,5 @@
 import React from 'react';
 import Fade from 'react-reveal';
-// import Chevron from '../../images/chevron-down.svg';
 import './Hero.css';
 
 const Hero = () => (
@@ -8,7 +7,11 @@ const Hero = () => (
     <Fade>
       <div className="block flex flex-row items-center justify-center h-screen">
         <div className="flex items-start relative vertical-text mr-4">
-          <p className="font-mono tracking-wide text-sm text-silver mb-5">contact@jdinh.dev</p>
+          <a
+            className="font-mono tracking-wide text-sm text-silver mb-5"
+            href="mailto:justintdinh1@gmail.com">
+            justintdinh1@gmail.com
+          </a>
         </div>
         <div className="flex flex-col justify-center w-full">
           <div>
