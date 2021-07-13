@@ -35,7 +35,7 @@ const Work = () => {
   const projects = data.projects.edges.filter(({ node }) => node);
 
   return (
-    <section className="container mx-auto px-64 py-40">
+    <section className="container mx-auto px-64 py-40" id="work">
       <div className="block flex flex-col items-center justify-center">
         <h4 className="mb-12 text-2xl text-melon font-sans font-bold tracking-wide whitespace-nowrap">
           My Work
