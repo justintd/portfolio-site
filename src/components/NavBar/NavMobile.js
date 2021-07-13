@@ -1,11 +1,12 @@
 import React from 'react';
 import Fade from 'react-reveal';
+import './Navbar.css';
 
 const NavMobile = (props) => (
   <>
     <nav className="lg:hidden">
       <button
-        className={`absolute bg-black inset-0 transition-all ease-in-out duration-300 opacity-0 h-screen w-screen ${
+        className={`mobile-overlay absolute bg-black inset-0 transition-all ease-in-out duration-300 opacity-0 h-screen w-screen ${
           props.isActive ? 'opacity-50' : 'invisible'
         }`}
         onClick={props.handleToggle}
