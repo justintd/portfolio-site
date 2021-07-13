@@ -23,7 +23,7 @@ const Footer = () => (
               <a className="github-icon mr-5" href="https://github.com/justintd/portfolio-site">
                 <GithubIcon />
               </a>
-              <a className="linkedin-icon" href="https://github.com/justintd/portfolio-site">
+              <a className="linkedin-icon" href="https://www.linkedin.com/in/justindinh/">
                 <LinkedInIcon />
               </a>
             </div>

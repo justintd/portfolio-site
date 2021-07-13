@@ -35,11 +35,13 @@ const Hero = () => (
             </p>
           </div>
           <div>
-            <button
-              className="py-1 px-2 sm:py-2 lg:px-5 lg:text-md text-xs sm:text-sm rounded-sm border focus:outline-none font-mono text-melon tracking-wide hover:bg-melon hover:bg-opacity-25 transition duration-300"
-              type="button">
-              Contact Me
-            </button>
+            <a href="mailto:justintdinh1@gmail.com">
+              <button
+                className="py-1 px-2 sm:py-2 lg:px-5 lg:text-md text-xs sm:text-sm border rounded-sm font-mono text-melon tracking-wide hover:text-black hover:bg-melon overflow-hidden hover:bg-opacity-100 transition duration-300"
+                type="button">
+                Contact Me
+              </button>
+            </a>
           </div>
         </div>
       </div>

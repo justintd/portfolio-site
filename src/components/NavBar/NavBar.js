@@ -21,7 +21,7 @@ const NavBar = () => {
     },
     resume: {
       name: 'Resume',
-      href: '#resume',
+      href: '/resume.pdf',
       button: true
     }
   };

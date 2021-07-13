@@ -32,7 +32,7 @@ const NavMobile = (props) => (
             return (
               <li className="my-3" key={props.links[key].name}>
                 <button
-                  className="px-5 py-2 text-lg rounded-sm border focus:outline-none text-melon tracking-wide hover:bg-melon hover:bg-opacity-25 transition-all ease-in-out duration-300"
+                  className="px-5 py-2 text-lg rounded-sm border focus:outline-none text-melon tracking-wide hover:bg-melon hover:bg-opacity-100 hover:text-black transition-all ease-in-out duration-300"
                   type="button">
                   <a href={props.links[key].href}>{props.links[key].name}</a>
                 </button>
