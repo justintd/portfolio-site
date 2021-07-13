@@ -38,7 +38,7 @@ const Work = () => {
     <section className="container mx-auto px-64 py-40">
       <div className="block flex flex-col items-center justify-center">
         <h4 className="mb-12 text-2xl text-melon font-sans font-bold tracking-wide whitespace-nowrap">
-          My Projects
+          My Work
         </h4>
         {projects.map(({ node }) => {
           const { frontmatter, html } = node;
