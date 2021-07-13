@@ -3,8 +3,8 @@ import Fade from 'react-reveal';
 
 const Contact = () => (
   <Fade>
-    <section className="container mx-auto px-8 lg:px-64 pt-24 pb-48 lg:py-40" id="contact">
-      <div className="flex flex-col justify-center items-center">
+    <section className="container mx-auto px-8 lg:px-64 h-screen" id="contact">
+      <div className="flex flex-col h-full justify-center items-center">
         <h2 className="text-melon text-3xl lg:text-4xl font-bold tracking-wide font-sans mb-5">
           Contact Me
         </h2>
