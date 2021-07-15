@@ -39,7 +39,7 @@ const Work = () => {
     <Fade>
       <section className="container mx-auto px-8 lg:px-64 py-24 lg:py-40" id="work">
         <div className="block flex flex-col items-center justify-center">
-          <h4 className="mb-5 lg:mb-12 text-xl lg:text-2xl text-melon font-sans font-bold tracking-wide whitespace-nowrap">
+          <h4 className="mb-6 text-xl lg:text-2xl text-melon font-sans font-bold tracking-wide whitespace-nowrap">
             My Work
           </h4>
           {projects.map(({ node }) => {
