@@ -6,11 +6,11 @@ const AboutMe = () => (
     <section className="container mx-auto px-8 xl:px-64 py-24 xl:py-40" id="about">
       <div className="flex flex-col xl:flex-row justify-center">
         <h4
-          className="mb-5 text-xl lg:text-2xl text-melon font-sans font-bold xl:mr-24 xl:mb-0 tracking-wide whitespace-nowrap"
+          className="mb-5 text-xl lg:text-2xl text-melon font-sans font-bold xl:mr-20 xl:mb-0 tracking-wide whitespace-nowrap"
           style={{ minWidth: '120px' }}>
           About Me
         </h4>
-        <div className="flex flex-col">
+        <div className="flex flex-col xl:ml-7">
           <p className="mb-5 text-md lg:text-xl text-white font-sans">
             Hey there! I&apos;m Justin, a front-end developer based in Southern California.
           </p>
