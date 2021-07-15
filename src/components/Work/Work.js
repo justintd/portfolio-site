@@ -61,12 +61,14 @@ const Work = () => {
                 </div>
                 <div className="flex flex-col items-start justify-start xl:ml-20 xl:items-end xl:justify-between">
                   <div className="flex flex-col items-start xl:items-end mt-5 xl:mt-0">
-                    <h3 className="text-sm lg:text-md text-white font-mono font-bold xl:ml-5 tracking-wide">
+                    <h3 className="text-sm lg:text-md text-silver font-mono font-bold xl:ml-5 tracking-wide">
                       Project
                     </h3>
-                    <h3 className="mb-5 text-2xl lg:text-3xl text-melon font-sans font-bold xl:ml-5">
-                      {title}
-                    </h3>
+                    <a href={external}>
+                      <h3 className="mb-5 text-2xl lg:text-3xl text-white hover:text-melon transition duration-300 font-sans font-bold xl:ml-5">
+                        {title}
+                      </h3>
+                    </a>
                   </div>
                   <div
                     className="mb-5 text-sm lg:text-md text-left xl:text-right text-white font-sans max-w-xl xl:max-w-lg"
