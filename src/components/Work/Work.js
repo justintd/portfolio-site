@@ -50,7 +50,7 @@ const Work = () => {
             return (
               <div
                 key={title}
-                className="flex flex-col xl:flex-row w-full justify-center items-center xl:justify-between mb-32 xl:mb-48">
+                className="flex flex-col xl:flex-row w-full justify-center items-start xl:items-center xl:justify-between mb-32 xl:mb-48">
                 <div
                   className="relative rounded-sm"
                   style={{ boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }}>
@@ -69,7 +69,7 @@ const Work = () => {
                     </h3>
                   </div>
                   <div
-                    className="mb-5 text-sm lg:text-md text-left xl:text-right text-white font-sans max-w-lg"
+                    className="mb-5 text-sm lg:text-md text-left xl:text-right text-white font-sans max-w-xl xl:max-w-lg"
                     dangerouslySetInnerHTML={{ __html: html }}
                   />
                   <div className="flex flex-col items-start xl:items-end">
