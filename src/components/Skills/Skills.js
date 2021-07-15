@@ -48,6 +48,9 @@ const AboutMe = () => (
               <span className="text-melon">• </span>Express
             </p>
             <p className="lg:text-lg font-sans text-white mb-2 whitespace-nowrap">
+              <span className="text-melon">• </span>Gatsby
+            </p>
+            <p className="lg:text-lg font-sans text-white mb-2 whitespace-nowrap">
               <span className="text-melon">• </span>jQuery
             </p>
           </div>
