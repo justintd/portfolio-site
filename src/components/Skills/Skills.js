@@ -4,11 +4,13 @@ import Fade from 'react-reveal';
 const AboutMe = () => (
   <Fade>
     <section className="container mx-auto px-8 xl:px-64 py-24 xl:py-40" id="about">
-      <div className="block flex flex-col justify-center items-center">
-        <h4 className="mb-6 text-xl lg:text-2xl text-melon font-sans font-bold tracking-wide whitespace-nowrap text-center">
+      <div className="flex flex-col xl:flex-row justify-center">
+        <h4
+          className="mb-6 text-xl lg:text-2xl xl:mr-24 text-melon font-sans font-bold tracking-wide whitespace-nowrap xl:text-right"
+          style={{ minWidth: '120px' }}>
           Skills
         </h4>
-        <div className="flex flex-row flex-wrap">
+        <div className="flex flex-row flex-wrap w-full">
           <div className="flex flex-col mx-7 mb-5 flex-1">
             <h4 className="lg:text-xl font-sans font-bold text-white mb-3 tracking-wide">
               Languages
