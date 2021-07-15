@@ -63,8 +63,8 @@ const Work = () => {
                       <h3 className="text-sm lg:text-md text-silver font-mono font-bold xl:ml-5 tracking-wide">
                         Project
                       </h3>
-                      <a href={external}>
-                        <h3 className="mb-5 text-2xl lg:text-3xl text-white hover:text-melon transition duration-300 font-sans font-bold xl:ml-5">
+                      <a href={external} className="mb-5">
+                        <h3 className="text-2xl lg:text-3xl text-white hover:text-melon transition duration-300 font-sans font-bold">
                           {title}
                         </h3>
                       </a>
