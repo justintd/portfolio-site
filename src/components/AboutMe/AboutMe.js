@@ -16,8 +16,9 @@ const AboutMe = () => (
           </p>
           <p className="mb-5 text-md lg:text-xl text-white font-sans">
             I began my career in IT as a Systems Administrator, where I gained over four years of experience managing and optimizing systems. Over time, my interest shifted toward web development, and I discovered a deep passion for software engineering. Motivated to pursue this new path, I dedicated myself to learning through documentation, online courses, and books. After countless hours of self-study, I secured my first role as a Front-End Developer at iGrad.
-
-            A year later, I advanced to a Senior Front-End Developer position at Shift7 Digital, a consulting firm. This role provided me with the opportunity to work on diverse projects for clients such as <a href="https://www.slb.com/">Schlumberger</a>, <a href="https://www.globalindustrial.com/">Global Industrial</a>, <a href="https://www.fleetpride.com/"></a>Fleetpride, and more. My experience at Shift7 allowed me to refine my skills, tackle unique challenges, and contribute to a wide range of impactful software solutions.
+          </p>
+          <p className="mb-5 text-md lg:text-xl text-white font-sans">
+            A year later, I advanced to a Senior Front-End Developer position at Shift7 Digital, a consulting firm. This role provided me with the opportunity to work on diverse projects for clients such as <a href="https://www.slb.com/" className="text-melon">Schlumberger</a>, <a href="https://www.globalindustrial.com/" className="text-melon">Global Industrial</a>, <a href="https://www.fleetpride.com/" className="text-melon">Fleetpride</a>, and more. My experience at Shift7 allowed me to refine my skills, tackle unique challenges, and contribute to a wide range of impactful software solutions.
           </p>
         </div>
       </div>
