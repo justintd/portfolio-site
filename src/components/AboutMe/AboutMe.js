@@ -25,15 +25,16 @@ const AboutMe = () => (
           <p className="mb-5 text-md lg:text-xl text-white font-sans">
             A year later, I started as a Front-End Developer at Shift7 Digital, a consulting firm.
             Through hard work and dedication, I advanced to a Senior Front-End Developer position.
-            In both roles, I had the opportunity to work on diverse projects for clients such as
+            In both roles, I had the opportunity to work on diverse projects for clients such
+            as&nbsp;
             <a href="https://www.slb.com/" className="text-melon">
-              Schlumberger
+              Schlumberger&nbsp;
             </a>
             <a href="https://www.globalindustrial.com/" className="text-melon">
-              Global Industrial
+              Global Industrial&nbsp;
             </a>
             <a href="https://www.fleetpride.com/" className="text-melon">
-              Fleetpride
+              Fleetpride&nbsp;
             </a>
             , and more. My experience at Shift7 allowed me to refine my skills, tackle unique
             challenges, and contribute to a wide range of impactful software solutions.
