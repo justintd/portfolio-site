@@ -36,7 +36,7 @@ const AboutMe = () => (
             </a>
             ,&nbsp;
             <a href="https://www.fleetpride.com/" className="text-melon">
-              Fleetpride&nbsp;
+              Fleetpride
             </a>
             , and more. My experience at Shift7 allowed me to refine my skills, tackle unique
             challenges, and contribute to a wide range of impactful software solutions.
