@@ -28,11 +28,13 @@ const AboutMe = () => (
             In both roles, I had the opportunity to work on diverse projects for clients such
             as&nbsp;
             <a href="https://www.slb.com/" className="text-melon">
-              Schlumberger,&nbsp;
+              Schlumberger
             </a>
+            ,&nbsp;
             <a href="https://www.globalindustrial.com/" className="text-melon">
-              Global Industrial,&nbsp;
+              Global Industrial
             </a>
+            ,&nbsp;
             <a href="https://www.fleetpride.com/" className="text-melon">
               Fleetpride&nbsp;
             </a>
