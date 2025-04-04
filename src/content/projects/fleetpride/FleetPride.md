@@ -4,7 +4,7 @@ title: 'FleetPride'
 img: './fleetpride.png'
 external: 'https://www.fleetpride.com'
 tech:
-  - Salesforce Visualforce
+  - Visualforce
   - jQuery
   - HTML
   - CSS
