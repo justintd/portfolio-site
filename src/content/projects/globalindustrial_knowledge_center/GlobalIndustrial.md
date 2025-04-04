@@ -1,8 +1,8 @@
 ---
-date: '2021-10-01'
-title: 'FleetPride'
+date: '2022-04-01'
+title: 'Global Industrial Knowledge Center'
 img: './globalindustrial.png'
-external: 'https://fleetpride.com'
+external: 'https://www.globalindustrial.com/knowledge-center'
 tech:
   - React
   - Bloomreach XM
