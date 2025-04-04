@@ -84,16 +84,11 @@ const Work = () => {
                         ))}
                       </div>
                       <div className="flex flex-row">
-                        {({ github }) => {
-                          if (github) {
-                            return (
-                              <a className="github-icon mr-3" href={github}>
-                                <GithubIcon />
-                              </a>
-                            );
-                          }
-                          return '';
-                        }}
+                        {github && (
+                          <a className="github-icon mr-3" href={github}>
+                            <GithubIcon />
+                          </a>
+                        )}
                         <a className="external-icon" href={external}>
                           <ExternalIcon />
                         </a>

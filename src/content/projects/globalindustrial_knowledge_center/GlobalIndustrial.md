@@ -1,6 +1,6 @@
 ---
-date: '2022-04-01'
-title: 'Global Industrial Knowledge Center'
+date: '2022-01-04'
+title: 'Global Industrial'
 img: './globalindustrial.png'
 external: 'https://www.globalindustrial.com/knowledge-center'
 tech:

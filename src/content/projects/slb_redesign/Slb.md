@@ -1,6 +1,6 @@
 ---
 date: '2022-10-01'
-title: 'Schlumberger Website Redesign'
+title: 'Schlumberger Redesign'
 img: './slb.png'
 external: 'https://slb.com/'
 tech:
