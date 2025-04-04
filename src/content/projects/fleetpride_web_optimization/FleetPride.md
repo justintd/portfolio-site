@@ -1,6 +1,6 @@
 ---
-date: '2022-02-01'
-title: 'FleetPride Website Optimization'
+date: '2022-01-02'
+title: 'FleetPride Optimization'
 img: './fleetpride.png'
 external: 'https://www.fleetpride.com'
 tech:
