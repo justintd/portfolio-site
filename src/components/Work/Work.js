@@ -40,7 +40,7 @@ const Work = () => {
       <section className="container mx-auto px-8 xl:px-64 py-24 lg:py-40" id="work">
         <div className="flex flex-col items-center justify-center">
           <h4 className="mb-6 xl:mb-12 text-xl lg:text-2xl text-melon font-sans font-bold tracking-wide whitespace-nowrap">
-            My Work
+            Projects
           </h4>
           {projects.map(({ node }) => {
             const { frontmatter, html } = node;
@@ -78,7 +78,7 @@ const Work = () => {
                         {tech.map((item) => (
                           <div
                             key={item}
-                            className="text-xs lg:text-sm px-2 py-0.5 mr-3 xl:mr-0 xl:ml-3 rounded-sm border text-melon tracking-wide">
+                            className="text-xs px-2 py-0.5 mr-3 xl:mr-0 xl:ml-3 rounded-sm border text-melon tracking-wide">
                             {item}
                           </div>
                         ))}

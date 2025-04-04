@@ -4,9 +4,8 @@ title: 'FleetPride Website Optimization'
 img: './fleetpride.png'
 external: 'https://www.fleetpride.com'
 tech:
-  - Salesforce Visualforce
-  - Google Lighthouse
-  - Website Optimization
+  - Visualforce
+  - Lighthouse
   - HTML
   - CSS
   - JavaScript
